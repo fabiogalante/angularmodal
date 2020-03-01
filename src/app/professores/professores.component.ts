@@ -1,15 +1,21 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit } from "@angular/core";
 
 @Component({
-  selector: 'app-professores',
-  templateUrl: './professores.component.html',
-  styleUrls: ['./professores.component.css']
+  selector: "app-professores",
+  templateUrl: "./professores.component.html",
+  styleUrls: ["./professores.component.css"]
 })
 export class ProfessoresComponent implements OnInit {
+  titulo = "Professores";k
 
-  constructor() { }
+  public professores = [
+    { nome: "Rita" },
+    { nome: "Cecília" },
+    { nome: "Hanna" },
+    { nome: "Julia" }
+  ];
 
-  ngOnInit() {
-  }
+  constructor() {}
 
+  ngOnInit() {}
 }

@@ -7,6 +7,15 @@ import { Component, OnInit } from '@angular/core';
 })
 export class AlunosComponent implements OnInit {
 
+  titulo = 'Alunos';
+
+  public alunos = [
+    { nome: 'Fabio' },
+    { nome: 'Carlos' },
+    { nome: 'Estela' },
+    { nome: 'Isabella' },
+    ];
+
   constructor() { }
 
   ngOnInit(): void {

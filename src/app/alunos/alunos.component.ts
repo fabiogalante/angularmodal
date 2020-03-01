@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import {Component, OnInit} from '@angular/core';
 
 @Component({
   selector: 'app-alunos',
@@ -7,16 +7,17 @@ import { Component, OnInit } from '@angular/core';
 })
 export class AlunosComponent implements OnInit {
 
-  titulo = 'Alunos';
+  public titulo = 'Alunos no titulo';
 
   public alunos = [
-    { nome: 'Fabio' },
-    { nome: 'Carlos' },
-    { nome: 'Estela' },
-    { nome: 'Isabella' },
-    ];
+    {nome: 'Fabio'},
+    {nome: 'Carlos'},
+    {nome: 'Estela'},
+    {nome: 'Isabella'},
+  ];
 
-  constructor() { }
+  constructor() {
+  }
 
   ngOnInit(): void {
   }

@@ -3,6 +3,7 @@ import {NgModule} from '@angular/core';
 
 import {BrowserAnimationsModule} from '@angular/platform-browser/animations';
 import { BsDropdownModule } from 'ngx-bootstrap';
+import { ModalModule } from 'ngx-bootstrap/modal';
 
 import {AppRoutingModule} from './app-routing.module';
 import {AppComponent} from './app.component';
@@ -28,6 +29,7 @@ import { FormsModule, ReactiveFormsModule } from '@angular/forms';
     BrowserModule,
     AppRoutingModule,
     BsDropdownModule.forRoot(),
+    ModalModule.forRoot(),
     BrowserAnimationsModule,
     FormsModule,
     ReactiveFormsModule

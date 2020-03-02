@@ -12,6 +12,7 @@ import {PerfilComponent} from './perfil/perfil.component';
 import {DashboardComponent} from './dashboard/dashboard.component';
 import {NavComponent} from './nav/nav.component';
 import {TituloComponent} from './titulo/titulo.component';
+import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 
 @NgModule({
   declarations: [
@@ -27,7 +28,9 @@ import {TituloComponent} from './titulo/titulo.component';
     BrowserModule,
     AppRoutingModule,
     BsDropdownModule.forRoot(),
-    BrowserAnimationsModule
+    BrowserAnimationsModule,
+    FormsModule,
+    ReactiveFormsModule
   ],
   providers: [],
   bootstrap: [

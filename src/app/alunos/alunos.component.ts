@@ -10,6 +10,7 @@ export class AlunosComponent implements OnInit {
 
   public titulo = 'Alunos';
   public alunoSelecionado: Aluno;
+  variavelSimples: string;
 
   public alunos = [
     {id: 1 , nome: 'Fabio', sobrenome: 'Galante', telefone: '907518874'},
